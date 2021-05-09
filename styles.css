@@ -1,0 +1,117 @@
+body {
+    background-color: #393E46;
+}
+.rps {
+    display: inline-block;
+    text-align: center;
+}
+.main {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+  }
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+    margin: 0px 100px;
+  }
+  img {
+      width: 203px;
+      height: 203px;
+
+      
+
+  }
+  footer {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+  a {
+    text-decoration: none;
+    color: #EEEEEE;
+  
+  }
+  a:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  h2 {
+    visibility: hidden;
+    margin: 15px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+  }
+  .button {
+    font-family: 'Lobster', cursive;
+    background-image: linear-gradient(#4ECCA3,#EEEEEE);
+    border: none;
+    color: #000000;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:2rem;
+    position: absolute;
+    right : 10rem;
+    top: 20rem;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  .p1{
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 890px) {
+    h1 {
+      margin: 15px;
+      font-family: 'Lobster', cursive;
+      text-shadow: 2.5px 0 #232931;
+      font-size: 4rem;
+      color: #4ECCA3;
+    }
+    p {
+      font-size: 1rem;
+      color: #4ECCA3;
+      font-family: 'Indie Flower', cursive;
+    }
+    img {
+        width: 101px;
+        height: 101px;
+    }
+    .button {
+        font-family: 'Lobster', cursive;
+        background-image: linear-gradient(#4ECCA3,#EEEEEE);
+        border: none;
+        color: #000000;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size:1rem;
+        position: absolute;
+        right : 4rem;
+        top: 20rem;
+        border-radius: 10%;
+        cursor: pointer;
+      }
+      h2 {
+        visibility: hidden;
+        margin: 5px;
+        font-family: 'Lobster', cursive;
+        text-shadow: 5px 0 #232931;
+        font-size: 2rem;
+        color: #4ECCA3;
+      }
+  }
